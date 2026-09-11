@@ -1,5 +1,7 @@
 import random
-ans = random.randint(1,100)
+min_num = int(input('請輸入最小整數'))
+max_num = int(input('請輸入最大整數'))
+ans = random.randint(min_num,max_num)
 print(ans)
 count = 0
 while True:
